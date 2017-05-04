@@ -21,13 +21,13 @@ include 'head.php';
             <img src="images/hotel_a.jpg" class="img-responsive" alt="#">
           <div class="caption">
             <h3 class="text-center hotelname">
-              MAXIMUM HOTEL<br/>
+              Danubius Health Spa Resort Aquasuperior<br/>
               <small>
-                Pécs
+                Hévíz
               </small>
             </h3>
           </div>
-        <div class="btn-group btn-group-justified">
+        <div class="btn btn-group btn-group-justified text-center">
         <form method="POST" action="submit.php">
           <a href="#" class="btn btn-primary">Információk</a>
            <input type="submit" name="vote" value="Erre a hotelre szavazok!" class="btn btn-primary">
@@ -40,13 +40,13 @@ include 'head.php';
             <img src="images/hotel_b.jpg" class="img-responsive" alt="#">
           <div class="caption">
             <h3 class="text-center hotelname">
-               Lorem ipsum dolor WELNESS SZÁLLÓ<br/>
+               HOTEL EURÓPA Fitsuperior<br/>
               <small>
-                Pécs
+                Hévíz
               </small>
             </h3>
           </div>
-        <div class="btn-group btn-group-justified">
+        <div class="btn btn-group btn-group-justified text-center">
         <form method="POST" action="submit.php">
           <a href="#" class="btn btn-primary">Információk</a>
            <input type="submit" name="vote" value="Erre a hotelre szavazok!" class="btn btn-primary">
