@@ -17,6 +17,7 @@ include 'head.php';
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 card">
+      <a href="">
         <div class="thumbnail">
             <img src="images/hotel_a.jpg" class="img-responsive" alt="#">
           <div class="caption">
@@ -28,8 +29,10 @@ include 'head.php';
             </h3>
           </div>
         </div>
+        </a>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 card">
+      <a href="">
         <div class="thumbnail">
             <img src="images/hotel_b.jpg" class="img-responsive" alt="#">
           <div class="caption">
@@ -41,10 +44,11 @@ include 'head.php';
             </h3>
           </div>
         </div>
+        </a>
       </div>
   </div>
 </div>
 
 <?php 
-/* include 'footer.php';*/
+ include 'footer.php';
  ?>

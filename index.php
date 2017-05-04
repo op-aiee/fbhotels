@@ -2,6 +2,7 @@
 // Include FB config file && User class
 require_once 'fbConfig.php';
 require_once 'User.php';
+include 'head.php';
 
 if(isset($accessToken)){
 	if(isset($_SESSION['facebook_access_token'])){
@@ -76,9 +77,7 @@ if(isset($accessToken)){
 	$loginURL = $helper->getLoginUrl($redirectURL, $fbPermissions);
 	
 	// Render facebook login button
-	$output = '
-
-	<a href="'.htmlspecialchars($loginURL).'"><img src="images/fblogin-btn.png"></a>';
+	$output = '<div class=loginbtn><p><a href="'.htmlspecialchars($loginURL).'"><img src="images/login.png" class="img-responsive"></a></p></div>';
 }
 ?>
 <html>

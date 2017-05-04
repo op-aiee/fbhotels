@@ -6,6 +6,24 @@ body {
     background-position: center;
 }
 
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+div.loginbtn {
+    height: 10em;
+    position: relative;
+    
+    }
+div.loginbtn p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) };
+    margin-top: 10em;
+}
 h1,
 h2,
 h3,
@@ -23,9 +41,10 @@ h6,
     font-family: 'Lora', serif;
     margin: 20px 0;
 }
-.h3 .small {
-	color: #FFF;
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+    color: #f2f2f2;
 }
+
 .hotelname {
 	text-transform: uppercase;
 	font-weight: 800;
@@ -39,11 +58,24 @@ h6,
 .thumbnail {
     background-color: transparent;
     border: none;
+    transition: all 500ms linear;
+    transition-delay: 1ms;    
 }
 .thumbnail:hover {
     opacity: 0.7; /* css standard */
     filter: alpha(opacity=70); /* internet explorer */
-}    
+    background-color: #656b78;
+}
+.thumbnail .caption {
+    padding: 9px;
+    color: #FFF;
+}
 .hotel-text {
     color: #FFF;
+}
+
+/*  aszf */
+.panel-body {
+    padding: 15px;
+    background-color: white;
 }
