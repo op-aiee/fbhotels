@@ -23,6 +23,9 @@ h6,
     font-family: 'Lora', serif;
     margin: 20px 0;
 }
+.h3 .small {
+	color: #FFF;
+}
 .hotelname {
 	text-transform: uppercase;
 	font-weight: 800;
